@@ -5,7 +5,7 @@
 ## 1. Overview
 
 - purpose: Designing an AI model to detect potential anomalies in design from logs.
-- background: vDU has a working AI model (Cell Setup, ESS Cell Setup, Carrier Setup)
+- background: vDU has a working AI model (Cell Setup, ESS Cell Setup, Carrier Setup) <br /> 
   <img width="540" alt="image" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/5761e600-c998-46d3-ab8d-6dcc49655f54">
 
     
@@ -22,16 +22,12 @@ The following table illustrates the performance of the model. These particular r
 <img width="558" alt="image" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/b443f4d3-363f-41be-b650-8b751674d539">
 
 
-1. Long Short Term Memory Model
-    
+1. Long Short Term Memory Model <br /> 
     LSTM model is suitable for ordered data, such as time series data or sentences.
-    
     LSTM model use MSE values to express how different the next predictive message is from the actual message. 
     
-2. Isolation Forest Model 
-    
+2. Isolation Forest Model <br /> 
     Model training is possible with only normal data.
-    
     Isolation Forest Model classifies as normal if prediction is 1 and abnormal if prediction is -1. 
     
 
