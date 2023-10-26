@@ -6,20 +6,22 @@
 
 - purpose: Designing an AI model to detect potential anomalies in design from logs.
 - background: vDU has a working AI model (Cell Setup, ESS Cell Setup, Carrier Setup) <br /> 
-  <img width="540" alt="image" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/5761e600-c998-46d3-ab8d-6dcc49655f54">
+
+  <img width="437" alt="Untitled (3)" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/51816f4f-29e7-4ffc-b32c-6c7d1d6ef672">
+  <img width="438" alt="Untitled (4)" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/35a04107-2e2a-4099-8df0-8c550a54c875">
 
     
 
 ## 2. Result
 
-<img width="558" alt="image" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/172a3928-56b3-4480-8f94-ede87c047d2f">
+<img width="567" alt="Untitled (5)" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/1991ad8d-4d9d-493e-b0d6-745e4c905500">
 
 
 The following table illustrates the performance of the model. These particular results show that when I used a combination of two models, which were the Long Short Term Memory Model and the Isolation Forest Model, the accuracy of the model was 99, the precision was 78, the recall was 100, and the f1-score was 88.
 
 ## 3. Procedure
 
-<img width="558" alt="image" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/b443f4d3-363f-41be-b650-8b751674d539">
+<img width="720" alt="Untitled (6)" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/468a0442-1a0d-43e9-bd15-c03dca6704b5">
 
 
 1. Long Short Term Memory Model <br /> 
@@ -33,8 +35,7 @@ The following table illustrates the performance of the model. These particular r
 
 ## 4. Model Parameter Control
 
-<img width="574" alt="image" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/c35457af-1d9a-4020-8a5e-ff351653826c">
-
+<img width="531" alt="스크린샷 2023-10-26 오후 12 49 10" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/d938d4f1-cc1d-4a93-ab0d-7a1760552d6f">
 
 - LSTM Model
     - mse_test: average of the squared values of the error between the predicted log message by and the actual log message.
@@ -54,8 +55,10 @@ Why I choose case 2?
 - More work needs to be done for analyzing LTTNG logs.
 
 ## Presentation in Seoul Technical Stand-up, EricssonLG
-
-<img width="1512" alt="스크린샷 2023-09-27 오후 1 03 04" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/476eccc3-51dc-42a6-bc9e-201e72be4867">
-<img width="1512" alt="스크린샷 2023-09-27 오후 1 03 41" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/ae635dde-0a8a-48c5-9a2e-41e22fe3baaf">
+<img width="1512" alt="스크린샷 2023-10-26 오후 12 45 25" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/247ea248-aaa3-4f01-b516-5186589fc7ad">
 Playing the Demo code 
+
+<img width="1512" alt="스크린샷 2023-10-26 오후 12 47 56" src="https://github.com/heehminh/log-anomaly-detection/assets/76530562/faff1f3a-0f22-4f3d-b82b-ad69667fbc51">
+
+
 
